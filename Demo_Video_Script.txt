@@ -1,9 +1,0 @@
-DEMO VIDEO SCRIPT (about 60–90 seconds)
-
-1. Introduction: This project audits a sentiment classifier for performance differences across subgroups.
-2. Problem: Aggregate accuracy alone may hide differences in false-positive or false-negative rates.
-3. Workflow: The notebook creates a synthetic dataset, uses TF–IDF and Logistic Regression, and evaluates a held-out test set.
-4. Metrics: It reports accuracy, precision, recall, F1, FPR, FNR, and positive prediction rate.
-5. Audit: Results are grouped by illustrative gender and writing-style categories. Configurable thresholds flag gaps for review.
-6. Interpretation: Flags are screening prompts, not proof of discrimination. Small groups and synthetic data limit conclusions.
-7. Close: The notebook, report, output screenshots, and script are included. The project can be uploaded to GitHub for submission.
